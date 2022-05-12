@@ -1,0 +1,65 @@
+img{
+    width: 100%;
+    opacity: 0.45;
+    transition: 0.5s;
+}
+img:hover{
+    opacity: 1;
+}
+
+td, tr{
+    border: 1px solid #dddd;
+    padding: 8px;
+}
+table{
+    margin: 35px;
+    width: 45%;
+}
+tr:nth-child(even) {
+    background-color: rgba(220, 220, 220, 0.452);
+}
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Cairo');
+body {
+	background-color: #010;
+}
+
+.title {
+	font-family: 'Poppins';
+	color: #FFF;
+	letter-spacing: 1px;
+    margin: 14px;
+	line-height:2
+    
+}
+
+h1 {
+	background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	font-size: 34px;
+	
+}
+/* styling my button */
+
+h4{
+    font-size: 20px;
+    
+}
+.text{
+    margin-left: 40px;
+}
+h5{
+    font-size: 19px;
+    font-weight: 500;
+    margin-left: 55px;
+}
